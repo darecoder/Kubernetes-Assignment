@@ -1,7 +1,7 @@
 FROM node:latest
 WORKDIR /app
-COPY /testapp/package*.json ./
+COPY /package*.json ./
 RUN npm install
-COPY /KubernetesAssignment/ ./
+COPY . .
 EXPOSE 8080
 CMD [ "npm", "start" ]
