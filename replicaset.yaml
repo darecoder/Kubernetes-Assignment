@@ -17,4 +17,9 @@ spec:
       containers:
       - name: node-app
         image: quay.io/emishra/node-app:v0.1
+        env:
+        - name: NAME
+          value: "Ekta Mishra"
+        - name: COMPANY
+          value: "Red Hat"
   

@@ -12,4 +12,9 @@ spec:
     ports:
     - containerPort: 80
     resources: {}
+    env:
+    - name: NAME
+      value: "Ekta Mishra"
+    - name: COMPANY
+      value: "Red Hat"
 status: {}
